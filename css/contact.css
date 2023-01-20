@@ -1,0 +1,22 @@
+.contact-content{
+    height: 395px;
+    /* background-color: rgb(144, 144, 160); */
+    padding: 2px;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.contact-content::after{
+    content: "";
+    background-image:url('../images/arti (11).png');
+    position: absolute;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: inherit;
+    opacity: 0.25;
+    bottom: 20px;
+    z-index: -1;
+}
